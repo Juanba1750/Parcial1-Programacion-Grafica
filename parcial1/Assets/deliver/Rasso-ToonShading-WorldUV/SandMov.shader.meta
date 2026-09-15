@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 20aeda045bd0ef940b592d632b262e45
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _SandTex: {fileID: 2800000, guid: 54a0a9c76af64044e84728fd9ff9a65f, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
