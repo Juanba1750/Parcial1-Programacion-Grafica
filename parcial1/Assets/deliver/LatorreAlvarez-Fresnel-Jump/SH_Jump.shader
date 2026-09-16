@@ -29,7 +29,7 @@ Shader "Unlit/SH_Jump"
 
 		void surf( Input i , inout SurfaceOutputStandard o )
 		{
-			float2 uv_TexCoord1 = i.uv_texcoord * float2( 3,3 );
+			float2 uv_TexCoord1 = i.uv_texcoord * float2( 5,5 );
 			float2 panner2 = ( 1.0 * _Time.y * float2( 0,1 ) + uv_TexCoord1);
 			float3 ase_worldPos = i.worldPos;
 			float3 ase_worldViewDir = normalize( UnityWorldSpaceViewDir( ase_worldPos ) );
@@ -120,14 +120,14 @@ Shader "Unlit/SH_Jump"
 }
 /*ASEBEGIN
 Version=18900
-282;73;1350;729;1213.713;94.51225;1;True;True
+282;73;1350;729;1531.915;443.2485;1.632526;True;True
 Node;AmplifyShaderEditor.SimpleTimeNode;4;-918.97,261.3472;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0
-Node;AmplifyShaderEditor.TextureCoordinatesNode;1;-994.7341,38.55989;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;3,3;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;5;-727.653,262.2877;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;2;False;1;FLOAT;0
+Node;AmplifyShaderEditor.TextureCoordinatesNode;1;-994.7341,38.55989;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;5,5;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SinOpNode;6;-558.6795,266.1548;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.PannerNode;2;-722.8036,40.28821;Inherit;False;3;0;FLOAT2;0,0;False;2;FLOAT2;0,1;False;1;FLOAT;1;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.FresnelNode;9;-156.8706,109.8765;Inherit;False;Standard;WorldNormal;ViewDir;False;False;5;0;FLOAT3;0,0,1;False;4;FLOAT3;0,0,0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;5;False;1;FLOAT;0
-Node;AmplifyShaderEditor.SamplerNode;3;-499.5674,12.31227;Inherit;True;Property;_TextureSample0;Texture Sample 0;0;0;Create;True;0;0;0;False;0;False;-1;7b0842e3d0da6bf468f08b4a0ad9db9b;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.SamplerNode;3;-499.5674,12.31227;Inherit;True;Property;_TextureSample0;Texture Sample 0;0;0;Create;True;0;0;0;False;0;False;-1;7b0842e3d0da6bf468f08b4a0ad9db9b;7b0842e3d0da6bf468f08b4a0ad9db9b;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleAddOpNode;7;-433.6804,300.1548;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;1;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleAddOpNode;10;258.6978,42.65418;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;1;COLOR;0
 Node;AmplifyShaderEditor.SimpleDivideOpNode;8;-277.3271,285.9073;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;2;False;1;FLOAT;0
@@ -145,4 +145,4 @@ WireConnection;11;0;10;0
 WireConnection;11;1;8;0
 WireConnection;0;2;11;0
 ASEEND*/
-//CHKSM=07C8E4E985DF1694FFF9C8D7617E6951FB1CB8A8
+//CHKSM=3125FCB74D65A3CC87C23624E673B2E895993CF8
