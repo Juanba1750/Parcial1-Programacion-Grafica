@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 83
+  controlID: 87
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 84
+  controlID: 93
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 85
+  controlID: 94
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -348,7 +348,7 @@ MonoBehaviour:
   m_maxNodePos: {x: -3.4028235e+38, y: -3.4028235e+38}
   m_isDirty: 0
   m_saveIsDirty: 1
-  m_repaintIsDirty: 1
+  m_repaintIsDirty: 0
   m_liveShaderEditing: 1
   m_shaderIsModified: 0
   m_lastOpenedLocation: Assets/deliver/LatorreAlvarez-Jump/SH_Jump.shader
@@ -431,16 +431,16 @@ MonoBehaviour:
   m_selectionMode: 0
   m_duplicatePreventionBuffer:
     m_availableUVChannelsArray: ffffffffffffffffffffffffffffffff
-  m_inactivityTime: 3153.7321872
+  m_inactivityTime: 40.4777792
   m_lastTimeSaved: 3143.2032178
   m_cacheSaveOp: 0
   m_mainGraphInstance: {fileID: 0}
-  m_cameraOffset: {x: -446.36884, y: 272.3223}
-  m_cameraZoom: 1.5999999
+  m_cameraOffset: {x: -296.99765, y: 405.94055}
+  m_cameraZoom: 1.964007
   m_minNodePos: {x: 0, y: 0}
   m_maxNodePos: {x: 1531.138, y: 493.5455}
   m_isDirty: 0
-  m_saveIsDirty: 1
+  m_saveIsDirty: 0
   m_repaintIsDirty: 0
   m_liveShaderEditing: 0
   m_shaderIsModified: 0
@@ -448,7 +448,7 @@ MonoBehaviour:
   m_zoomChanged: 0
   m_lastWindowWidth: 1204
   m_graphCount: 1
-  m_currentInactiveTime: 44.3871893999999
+  m_currentInactiveTime: 1.4545752000000007
   m_currentNodeAvailability: 1
   m_nodeParametersWindowMaximized: 1
   m_paletteWindowMaximized: 1
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 44bfffff
+      m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 18fbffff
       m_RenameOverlay:
@@ -853,11 +853,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.123855636, y: 0.07139056, z: -0.008969723, w: -0.9897043}
     speed: 2
-    m_Value: {x: -0.12386697, y: 0.06990481, z: -0.008783789, w: -0.9897945}
+    m_Value: {x: -0.123855636, y: 0.07139056, z: -0.008969723, w: -0.9897043}
   m_Size:
-    m_Target: 17.51249
+    m_Target: 21.55993
     speed: 2
-    m_Value: 18.337685
+    m_Value: 22.575844
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1028,9 +1028,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 170.20953}
-    m_SelectedIDs: b8520000
-    m_LastClickedID: 21176
-    m_ExpandedIDs: 000000008e520000905200009e52000000ca9a3b
+    m_SelectedIDs: d8520000
+    m_LastClickedID: 21208
+    m_ExpandedIDs: 000000009452000096520000be52000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1058,7 +1058,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008e52000090520000
+    m_ExpandedIDs: 000000009452000096520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1085,7 +1085,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
